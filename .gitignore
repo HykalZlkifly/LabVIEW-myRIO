@@ -1,0 +1,25 @@
+# ==========================================
+# LabVIEW Git Ignore Rules
+# ==========================================
+
+# LabVIEW temporary and user-specific project files
+*.lvlps
+*.aliases
+*.bak
+*.tmp
+*~
+
+# LabVIEW build outputs and compiled targets
+builds/
+Builds/
+*.exe
+*.dll.config
+
+# System & OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE configuration
+.vscode/
+.idea/
